@@ -1,0 +1,3 @@
+C:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug/CMakeFiles/College_work.dir
+C:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug/CMakeFiles/rebuild_cache.dir
