@@ -221,12 +221,12 @@ void baconian_decryption(const string& baconian) {
                 decryp_baconian += baconian_to_char(baconian_code);
                 baconian_code = "";
             }
-            else if (isdigit(c)) {
-                decryp_baconian += c; // Include numbers as they are
-            }
             else {
                 decryp_baconian += " "; // Add space for each space in the input
             }
+        }
+        else if (isdigit(c)) {
+            decryp_baconian += c; // Include numbers as they are
         }
         else {
             baconian_code += c;
