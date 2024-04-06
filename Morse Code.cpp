@@ -5,7 +5,7 @@ using namespace std;
 void main_menu();
 
 // Function for Morse code encryption
-void encryption_morse(string x) {
+void encryption_morse(string text) {
     map<char, string> morsecode;  // Map to store Morse code representations
     // Populate the map with letters and symbols and their Morse code
     morsecode['A'] = ".-";
@@ -62,17 +62,17 @@ void encryption_morse(string x) {
     morsecode['"'] = ".-..-.";
     morsecode['$'] = "...-..-";
     morsecode['@'] = ".--.-.";
-    string morsetext = "";
-    for (int n = 0; n < x.length(); n++) {
-        if (isspace(x[n])) {  // Check if the current character is a space
-            morsetext += "   ";
+    string encryp_text = "";
+    for (int n = 0; n < text.length(); n++) {
+        if (isspace(text[n])) {  // Check if the current character is a space
+            encryp_text += "   ";
         }
         else {  // If not a space, convert the character to uppercase and find its Morse code equivalent
-            morsetext = morsetext + morsecode[toupper(x[n])] + " ";
+            encryp_text = encryp_text + morsecode[toupper(text[n])] + " ";
         }
     }
-    morsetext+=" ";
-    cout << "Encrypted message: " << morsetext << "\n";
+    encryp_text += " ";
+    cout << "Encrypted message: " << encryp_text << endl;
     main_menu();
 }
 
@@ -135,20 +135,20 @@ void decryption_morse(string morse) {
     morsecode ["...-..-"] = '$';
     morsecode [".--.-."] = '@';
     string letter = "";
-    string decryp = "";
+    string decryp_text = "";
     for (int i = 0; i <= morse.length(); i++) {
         if (!isspace(morse[i]) && i < morse.length()) {  // Check if the current character is a space
             letter += morse[i];
         }
         else if (!letter.empty()) {
-            decryp += morsecode[letter];
+            decryp_text += morsecode[letter];
             letter = "";
         }
         else {
-            decryp += ' ';
+            decryp_text += ' ';
         }
     }
-    cout << "Decrypted message: " << decryp << "\n";
+    cout << "Decrypted message: " << decryp_text << "\n";
 
     main_menu();
 }
@@ -159,16 +159,16 @@ void main_menu(){
     string text;
     string choice;
     cout << "===== Main Menu =====\n1) Encryption\n2) Decryption\n3) Exit\n";
-    cout<<"Entre your choice \n ==>";
+    cout << "Enter your choice ==>";
     cin >> choice;
     if (choice == "1") {
-        cout << "\nEnter your message: \n";
+        cout << "\nEnter your message:";
         cin.ignore();
         getline(cin,text);
         encryption_morse(text);
     }
     else if (choice == "2") {
-        cout << "\nEnter your message: \n";
+        cout << "\nEnter your message:";
         cin.ignore();
         getline(cin,text);
         decryption_morse(text);
@@ -177,12 +177,13 @@ void main_menu(){
         exit(0);
     }
     else {
-        cout << "\nPlease enter a valid choice\n";
+        cout << "\nPlease Enter a Valid Choice\n";
         main_menu();
     }
 }
+
 int main() {
-    cout<<"Welcome  to the Cryptography Program!\n";
+    cout << "Welcome to the Cryptography Program!\n";
     main_menu();
     return 0;
 }

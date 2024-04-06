@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/PC/OneDrive/Documents/GitHub/College-work/cmake-build-debug"
+			"value" : "c:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/OneDrive/Documents/GitHub/College-work/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/PC/OneDrive/Documents/GitHub/College-work"
+			"value" : "C:/1. F A M I L Y/George/GitHub/College-work"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/OneDrive/Documents/GitHub/College-work/cmake-build-debug"
+			"value" : "C:/1. F A M I L Y/George/GitHub/College-work/cmake-build-debug"
 		},
 		{
 			"name" : "College_work_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/OneDrive/Documents/GitHub/College-work"
+			"value" : "C:/1. F A M I L Y/George/GitHub/College-work"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
