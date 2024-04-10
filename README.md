@@ -1,2 +1,1 @@
-# This repo is for my College Projects
-# It contains a cryptography program that encrypts and decrypts messages using various ciphers
+# The first program is a cryptography program that encrypts and decrypts messages using various ciphers (Morse Code, Baconian Cipher, Simple Substitution Cipher)
