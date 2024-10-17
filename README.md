@@ -104,7 +104,7 @@ This project was a collaborative effort with contributions from multiple team me
 - Performed code reviews and ensured error handling was in place.
 
 ## Image Class
-The Image class, provided by the professor, serves as the backbone of the project, handling all the core operations related to image manipulation, including:
+The Image class, provided by Dr. Mohamed El-Ramely, serves as the backbone of the project, handling all the core operations related to image manipulation, including:
 - Loading and saving (.jpg or .png or .bmp or .jpeg) files.
 - Accessing and modifying pixel data.
 - Supporting various color channels (RGB) for image processing.
