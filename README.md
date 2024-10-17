@@ -28,15 +28,15 @@ Example:
 ## **Contributions**
 This project was a collaborative effort with contributions from multiple team members. Here’s a breakdown of the work:
 
-### George Youssef:
+**George Youssef:**
 - Implemented the Baconian cipher, Simple Substitution cipher, and Morse code functionalities.
 - Organized the code output structure and added detailed comments for clarity.
 
-### Mina Maher: 
+**Mina Maher:** 
 - Implemented the XOR cipher, Polybuis Square cipher, and Rail-fence cipher functionalities.
 - Created the the encryption menu, decryption menu and main menu.
 
-### Mohamed Adel: 
+**Mohamed Adel:** 
 - Implemented the Affine cipher, Route cipher, Atbash Cipher and Vignere cipher functionalities.
 - Performed code reviews and ensured error handling was in place.
 
@@ -105,6 +105,6 @@ This project was a collaborative effort with contributions from multiple team me
 
 ## Image Class
 The Image class, provided by the professor, serves as the backbone of the project, handling all the core operations related to image manipulation, including:
-Loading and saving (.jpg or .png or .bmp or .jpeg) files.
-Accessing and modifying pixel data.
-Supporting various color channels (RGB) for image processing.
+- Loading and saving (.jpg or .png or .bmp or .jpeg) files.
+- Accessing and modifying pixel data.
+- Supporting various color channels (RGB) for image processing.
