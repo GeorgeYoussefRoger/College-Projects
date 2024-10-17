@@ -1,8 +1,7 @@
 # **Cipher Project**
 *CS112_A2_T4_S15,16_20230438_20230342_20230107.cpp*
-This project is a C++ application designed to encrypt and decrypt messages using various classical cipher techniques. The program supports multiple ciphers such as 
-the Atbash cipher, Morse code and XOR cipher. Users can input text and choose their preferred cipher method for 
-encoding or decoding the message.
+
+This project is a C++ application designed to encrypt and decrypt messages using various classical cipher techniques. The program supports multiple ciphers such as the Atbash cipher, Morse code and XOR cipher. Users can input text and choose their preferred cipher method for encoding or decoding the message.
 
 ## **Features**
 - Encode and decode messages using classical cipher techniques:
